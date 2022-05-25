@@ -13,9 +13,9 @@
     <title>Document</title>
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
     <!-- Font Awesome -->
-
-    <link rel="stylesheet" href="assets/css/style.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+    
 
 </head>
 <body>
@@ -58,7 +58,9 @@
  </div>
    </header> 
    <section class="intro">
-     <div class="all">
+     <div data-aos="fade-left"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine" class="all">
        <div class="container">
          <div class="row">
            <div class="col-lg-6">
@@ -85,7 +87,7 @@
              </ul>
            </div>
            <div class="col-lg-7">
-           <div class="imageschef">
+           <div  data-aos="flip-down" class="imageschef">
             <img class="img1" src="assets/img/chefs/_0014500.jpg" alt="">
             <img class="img2" src="assets/img/meals/_0010056.jpg" alt="">
            </div>
@@ -304,7 +306,5 @@
 <script src="assets/js/seach.js"></script>
 <script src="assets/js/main.js"></script>
 
-<script>
-  AOS.init();
-</script>
+
 </html>

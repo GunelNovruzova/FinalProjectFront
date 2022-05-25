@@ -235,6 +235,9 @@ header .booktable a:hover {
 .details .allcontent {
   margin-left: 50px;
 }
+.details .allcontent .col-lg-4 {
+  text-align: center;
+}
 .details .allcontent img {
   height: 120px;
   width: 120px;

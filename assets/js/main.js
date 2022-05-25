@@ -4,7 +4,7 @@ $(document).ready(function () {
         slidesToScroll: 1,
         arrows: false,
         autoplay: true,
-        autoplaySpeed: 2000,
+        autoplaySpeed: 1000,
     });
 
     $('.aboutimage').slick({
@@ -29,6 +29,7 @@ $(document).ready(function () {
 		$(".ship-to-different").slideToggle("100");
 	});
 });
+AOS.init();
 // var search = document.querySelector(".searchglass");
 // var closeIcon = document.querySelector(".mark");
 // search.addEventListener("click",function(e){
