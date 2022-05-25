@@ -1,0 +1,316 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header {
+    // align-items: center;
+    // justify-content: space-between;
+    padding: 20px 0;
+    margin: 0;
+    border-bottom: 1px solid #cfa86e;
+    background: #030e166b;
+    position: absolute;
+    width: 100%;
+    z-index: 999;
+
+    a {
+        text-decoration: none;
+
+        img {
+            width: 60%;
+            height: auto;
+        }
+    }
+
+    .header-text {
+        height: 100%;
+        align-items: center;
+        color: #fff;
+        font-size: 17px;
+        display: flex;
+
+        ul {
+            text-decoration: none;
+            margin: 0;
+
+            li {
+                display: inline-block;
+                margin-left: 20px;
+            }
+        }
+
+        a {
+            text-decoration: none;
+
+            color: #fff;
+            font-size: 17px;
+            margin-left: 20px;
+        }
+
+    }
+
+    .booktable {
+        height: 100%;
+        display: flex;
+        align-items: center;
+        margin: 0;
+
+        a {
+            display: inline-block;
+            color: #cfa86e;
+            padding: 10px 35px;
+            border: 2px solid #cfa86e;
+        }
+    }
+
+}
+.about{
+    padding: 180px 0;
+   background-image: url(../img/background/inner-bnr-2.jpg);
+    background-color: #041b26;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    .about-text{
+        text-align: center;
+        h1{
+            font-size: 60px;
+         color: #fff;
+       font-weight: 500;
+    letter-spacing: 1px;
+    margin: 0;
+    margin-bottom: 10px;
+    word-break: break-word;
+    padding-left: 10px;
+    padding-right: 10px;
+        }
+        a{
+            color: #fff;
+            font-weight: 600;
+            font-size: 18px;
+            text-decoration: none;
+            transition: .4s;
+            &:hover{
+                color: #e3a51e;
+            }
+        }
+        i{
+            color: #fff;
+            margin-left: 5px;
+        }
+        span{
+            color: #cfa86e;
+    font-size: 20px;
+        }
+    }
+}
+.checkdetail{
+    padding: 50px 0;
+    background: #041b26;
+    .billing{
+
+        input{
+            color: #666666;
+            border: 1px solid #ccc;
+            padding: 12px 10px;
+            width: 100%;
+            font-size: 14px;
+            background: #f7f7f7;
+            margin-top: 20px;
+        }
+        label{
+            margin-top: 10px;
+            color: #fff;
+        }
+        h3{
+            margin-top: 20px;
+            color: #fff;
+        }
+    }
+
+    .orderdetail{
+        background-color: #030e166b;
+        h3{
+            margin-top: 20px;
+            color: #fff;
+        }
+    }
+    
+    .order-summary-table {
+        background-color: #030e166b;
+        margin-top: 34px; }
+        .order-summary-table .table,
+        .order-summary-table table {
+          color: #fff;
+          margin-bottom: 0;
+          font-size: 15px;
+          white-space: nowrap; }
+          .order-summary-table .table tr td,
+          .order-summary-table .table tr th,
+          .order-summary-table table tr td,
+          .order-summary-table table tr th {
+            font-weight: 500;
+            vertical-align: middle;
+            padding: 15px 10px;
+            border-width: 1px; }
+            .order-summary-table .table tr td a,
+            .order-summary-table .table tr th a,
+            .order-summary-table table tr td a,
+            .order-summary-table table tr th a {
+              color: #fff;
+              font-weight: 400; }
+            .order-summary-table .table tr td strong,
+            .order-summary-table .table tr th strong,
+            .order-summary-table table tr td strong,
+            .order-summary-table table tr th strong {
+              font-weight: 400; }
+          .order-summary-table .table tr td,
+          .order-summary-table table tr td {
+              a{
+                  text-decoration: none;
+                  color: #fff;
+              }
+            font-weight: 400; }
+        .order-summary-table .shipping-type {
+          text-align: left; }
+          .order-summary-table .shipping-type li {
+            margin-bottom: 5px; }
+            .order-summary-table .shipping-type li:last-child {
+              margin-bottom: 0; }
+      
+      .order-payment-method {
+        background-color: #030e166b;
+        padding: 40px 20px 30px; }
+        .single-payment-method {
+            margin-bottom: 20px;
+        color: #fff; }
+            .single-payment-method:last-child {
+              margin-bottom: 0; }
+            .single-payment-method:first-child .payment-method-details {
+              display: block; }
+            .single-payment-method label,
+            .single-payment-method .custom-control-label {
+                color:#fff !important;
+              font-weight: 500; }
+            .single-payment-method .paypal-card {
+              max-width: 150px;
+              height: 50px;
+              margin-top: 10px;
+              display: block; }
+            .single-payment-method .payment-method-details {
+              background-color: #030e166b;
+              color: #fff;
+              font-weight: 400;
+              font-size: 13px;
+              padding: 10px;
+              position: relative;
+              margin-top: 20px;
+              display: none; }
+              .single-payment-method .payment-method-details:after {
+                content: '';
+                position: absolute;
+                border-left: 10px solid transparent;
+                border-right: 10px solid transparent;
+                border-bottom: 10px solid #030e166b;
+                bottom: 100%; }
+              .single-payment-method .payment-method-details * {
+                margin: 0; }
+                button{
+                    border-radius: 0;
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 1;
+                    color: #e3a51e;
+                    outline: none;
+                    -webkit-box-shadow: none;
+                    box-shadow: none;
+                    -webkit-transition: 0.4s;
+                    -o-transition: 0.4s;
+                    transition: 0.4s;
+                    display: inline-block;
+                    padding: 14px 25px;
+                    background-color: #333333;
+                    text-transform: uppercase;
+                    margin-top: 10px;
+                }
+                .summary-footer-area{
+                    label{
+                        color:#fff;
+                    }
+                    a{
+text-decoration: none;
+color: #fff;
+                }}
+}
+
+footer {
+    background-image: url(/assets/img/background/footer-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #041b26;
+    background-position: center center;
+    padding: 80px 0;
+
+    .footer-text {
+        text-align: center;
+
+        a {
+            position: relative;
+
+            img {
+                margin-bottom: 20px;
+                width: 200px;
+                height: 98px;
+            }
+
+            &::after {
+                content: '';
+                position: absolute;
+                width: 200%;
+                height: 2px;
+                background: #58d1be;
+
+                margin-bottom: 20px;
+                top: 50%;
+                transform: translateY(-20%);
+                right: -250%
+            }
+
+            &::before {
+                content: '';
+                position: absolute;
+                width: 200%;
+                height: 2px;
+                background-color: #58d1be;
+                top: 50%;
+                transform: translateY(-20%);
+                left: -250%
+            }
+        }
+    }
+
+    .col-lg-4 {
+        text-align: center;
+
+        h3 {
+            color: #fff;
+            font-size: 26px;
+        }
+
+        p {
+            color: #cbcccb;
+            font-size: 20px;
+        }
+
+        i {
+            margin-left: 10px;
+            color: #cfa86e;
+        }
+
+        span {
+            color: #cfa86e;
+        }
+    }
+
+}

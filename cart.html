@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+    crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <title>Cart</title>
+    <link rel="stylesheet" href="assets/css/cart.css">
+</head>
+<body>
+    <header>
+        <div class="all"> 
+      <div class="container">
+       <div class="row">
+      <div class="col-lg-2">
+        <a href=""> <img src="assets/img/logo/prive logo.png" alt=""></a>
+      </div>
+        <div class="col-lg-8">
+         <div class="header-text">
+                   <ul>
+                    <a href="index.html"><li> Home </li></a>
+                    <a href="about.html"><li>About Us </li></a> 
+                    <a href="menu.html"> <li>Menu </li></a>
+                    <a href="blog.html"><li>Blog</li></a>
+                    <a href=""><li>Shop </li></a>
+                    <a href="contact.html"> <li>Contact Us</li></a>
+                   </ul>
+                   <div class="right-side">
+                     <a href=""> <i class="fa-solid fa-magnifying-glass"></i></a>
+                     <a href=""><i class="fa-solid fa-user-gear"></i></a>
+                     <a href=""><i class="fa-solid fa-cart-shopping"></i></a>
+                   </div>
+           </div>
+           </div>
+           <div class="col-lg-2">
+               <div class="booktable"> 
+                   <a href="">Book A Table</a>
+               </div>
+           </div>
+       </div>
+    </div>
+    </div>
+      </header> 
+
+      <section class="about">
+        <div class="about-text">
+            <h1>Cart</h1>
+            <a href="">Home </a>
+            <i class="fa-solid fa-angle-right"></i>
+            <span>Cart</span>
+        </div>
+              </section>
+  <section class="cart">
+      <div class="maincart">
+        <table class="table table-bordered">
+            <thead>
+              <tr>
+                <th scope="col">Image</th>
+                <th scope="col">Product</th>
+                <th scope="col">Price</th>
+                <th scope="col">Quantity</th>
+                <th scope="col">Total</th>
+                <th scope="col">Remove</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><img src="assets/img/meals/039C1005.jpg" alt=""></td>
+                <td>Prive Chicken Burger</td>
+                <td>23 ₼</td>
+                <td>
+                    <div class="amountcart">
+                        <div class="productamount">
+                            <a href=""><i class="fa-solid fa-minus"></i></a>
+                            <span>1</span>
+                            <a href=""><i class="fa-solid fa-plus"></i></a>
+                        </div>
+                      
+                     </div>
+                </td>
+                <td>23 ₼</td>
+                <td><a href=""><i class="fa-solid fa-trash-can"></i></a></td>
+
+              </tr>
+              <tr>
+                <td><img src="assets/img/meals/blogbaklava.jpg" alt=""></td>
+                <td>Baklava</td>
+                <td>4 ₼</td>
+                <td>  <div class="amountcart">
+                    <div class="productamount">
+                        <a href=""><i class="fa-solid fa-minus"></i></a>
+                        <span>1</span>
+                        <a href=""><i class="fa-solid fa-plus"></i></a>
+                    </div>
+                  
+                 </div></td>
+                <td>8 ₼</td>
+                <td><a href=""><i class="fa-solid fa-trash-can"></i></a></td>
+
+              </tr>
+            
+            </tbody>
+          </table>
+      </div>
+     
+      <div class="itemcarts">
+        <div class="col-lg-5 ml-auto">
+       <div class="rightsection">
+             <h3>Cart Totals</h3>
+             <p>Sub Total .........................<span>34.00</span></p>
+           
+             <p>Grand Total ......................<span>34.00</span></p>
+             <br>
+ <a href="checkout.html"><button>Proceed to Checkout</button></a>
+           </div>
+        </div>
+      </div>
+       
+   
+  </section>
+
+  <footer>
+    <div class="footer-text">
+      <a href=""> <img src="assets/img/logo/prive logo.png" alt=""></a>
+    </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-4">
+        <h3>Our Address</h3>
+        <p>14/a Khagani Street, <br> Baku Azerbaijan</p>
+        <a href=""><i class="fa-brands fa-facebook"></i></a>
+        <a href=""><i class="fa-brands fa-instagram"></i></a>
+      </div>
+      <div class="col-lg-4">
+        <h3>Order Online</h3>
+        <p>If you want to book a table, You  <br> can contact with our staff</p>
+        <span>(+994) 12 598 05 55</span>
+      </div>
+      <div class="col-lg-4">
+        <h3>Our Hours</h3>
+        <p><span>Mon-Fri</span> 09:00 AM - 00:00 PM</p>
+      </div>
+    </div>
+  </div>
+  </footer>
+</body>
+<script src="assets/js/seach.js"></script>
+<script src="assets/js/cart.js"></script>
+</html>
