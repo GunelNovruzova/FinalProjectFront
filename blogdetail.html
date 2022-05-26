@@ -14,39 +14,44 @@
     <link rel="stylesheet" href="assets/css/blogdetail.css">
 </head>
 <body>
-    <header>
-        <div class="all"> 
-      <div class="container">
-       <div class="row">
-      <div class="col-lg-2">
-        <a href=""> <img src="assets/img/logo/prive logo.png" alt=""></a>
-      </div>
-        <div class="col-lg-8">
-         <div class="header-text">
-                   <ul>
-                    <a href="index.html"><li> Home </li></a>
-                    <a href="about.html"><li>About Us </li></a> 
-                    <a href="menu.html"> <li>Menu </li></a>
-                    <a href="blog.html"><li>Blog</li></a>
-                    <a href="shop.html"><li>Shop </li></a>
-                    <a href="contact.html"> <li>Contact Us</li></a>
-                   </ul>
-                   <div class="right-side">
-                     <a href=""> <i class="fa-solid fa-magnifying-glass"></i></a>
-                     <a href=""><i class="fa-solid fa-user-gear"></i></a>
-                     <a href=""><i class="fa-solid fa-cart-shopping"></i></a>
-                   </div>
-           </div>
-           </div>
-           <div class="col-lg-2">
-               <div class="booktable"> 
-                   <a href="">Book A Table</a>
+  <header>
+    <div class="all"> 
+  <div class="container">
+   <div class="row">
+  <div class="col-lg-2">
+    <a href=""><img src="assets/img/logo/prive logo.png" alt=""></a>
+  </div>
+    <div class="col-lg-8">
+     <div class="header-text">
+               <ul>
+                <a href="index.html"><li> Home </li></a>
+                <a href="about.html"><li>About Us </li></a> 
+                <a href="menu.html"> <li>Menu </li></a>
+                <a href="blog.html"><li>Blog</li></a>
+                <a href="shop.html"><li>Shop </li></a>
+                <a href="contact.html"> <li>Contact Us</li></a>
+               </ul>
+               <div class="right-side">
+                 <a href="" class="searchglass"> <i class="fa-solid fa-magnifying-glass"></i></a>
+                 <a href="" class="account"><i class="fa-solid fa-user-gear"></i></a>
+                 <ul class="sub-menu">
+                   <li><a href="account.html">Account</a></li>
+                   <li><a href="login.html">Login</a></li>
+                   <li><a href="register.html">Register</a></li>
+                 </ul>
+                 <a href="" class="basket"><i class="fa-solid fa-cart-shopping"></i></a>
                </div>
+       </div>
+       </div>
+       <div class="col-lg-2">
+           <div class="booktable"> 
+               <a href="table.html">Book A Table</a>
            </div>
        </div>
    </div>
-    </div>
-      </header> 
+</div>
+</div>
+  </header> 
 
       <section class="blog">
         <div class="blog-text">
@@ -126,5 +131,50 @@
         </div>
       </div>
       </footer>
+      <section class="forsearch">
+        <div class="searchinput">
+          <form action="">
+            <input type="search" placeholder="Search">
+            <button class="searchbutton"><i class="fa-solid fa-magnifying-glass"></i></button>
+          </form>
+          <div class="markbutton">
+            <i class="fa-solid fa-xmark mark"></i>
+          </div>
+        </div>
+      
+      
+      
+      </section>
+      <section class="forbasket">
+        <div class="basket">
+          <i class="fa-solid fa-xmark closebasket"></i>
+          <hr>
+          <div class="prods">
+            <img src="assets/img/meals/039C0983.jpg" alt="">
+            <div class="prod-text">
+              <p>Prive Chicken Burger</p>
+              <h6>2 × <span>11₼</span></h6>
+            </div>
+            <i class="fa-solid fa-xmark"></i>
+          </div>
+      
+          <div class="prods">
+            <img src="assets/img/meals/039C0983.jpg" alt="">
+            <div class="prod-text">
+              <p>Prive Chicken Burger</p>
+              <h6>2 × <span>11₼</span></h6>
+            </div>
+            <i class="fa-solid fa-xmark"></i>
+          </div>
+          <h6>Subtotal: <span>44₼</span></h6>
+          <div class="aboutcart">
+            <a href="cart.html">View Cart</a>
+            <a href="checkout.html" class="checkout">Proceed to Checkout</a>
+          </div>
+        </div>
+      </section>
+    
 </body>
+<script src="assets/js/search.js"></script>
+<script src="assets/js/cart.js"></script>
 </html>
