@@ -11,7 +11,7 @@
     crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
     <title>About</title>
-    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/about.css">
    
@@ -38,12 +38,14 @@
                </ul>
                <div class="right-side">
                  <a href="" class="searchglass"> <i class="fa-solid fa-magnifying-glass"></i></a>
-                 <a href="" class="account"><i class="fa-solid fa-user-gear"></i></a>
-                 <ul class="sub-menu">
-                   <li><a href="account.html">Account</a></li>
-                   <li><a href="login.html">Login</a></li>
-                   <li><a href="register.html">Register</a></li>
+                 <div class="account">
+                   <i class="fa-solid fa-user-gear"></i> 
+                   <ul class="sub-menu">
+                     <li><a href="account.html">Account</a></li>
+                     <li><a href="login.html">Login</a></li>
+                     <li><a href="register.html">Register</a></li>
                  </ul>
+               </div>
                  <a href="" class="basket"><i class="fa-solid fa-cart-shopping"></i></a>
                </div>
        </div>
@@ -64,7 +66,11 @@
           <a href=""><img src="assets/img/logo/prive logo.png" alt=""></a>
         </div>
         <div class="col-2">
-         <i id="open-nav" class="fa-solid fa-bars"></i>
+         <div class="side-menu">
+           <span class="top"></span>
+           <span class="center" id="center"></span>
+           <span class="bottom"></span>
+         </div>
         </div>
       </div>
     </div>
@@ -73,22 +79,15 @@
     <div class="nav-barinner">
      <div class="box1 d-flex">
        <img src="assets/img/logo/prive logo.png" alt="">
-       <i id="close-nav" class="fa-solid fa-square-xmark close"></i>
+      
    </div>
       <ul>
-         <a href="index.html"><li>Home</li></a>
-         <hr>
+         <a href="index.html" class="active-nav-link"><li>Home</li></a>
          <a href="about.html"><li>About</li></a>
-         <hr>
          <a href="contact.html"><li>Contact</li></a>
-         <hr>
          <a href="blog.html"><li>Blog</li></a>
-         <hr>
-
          <a href="shop.html"><li>Shop</li></a>
-         <hr>
          <a href="menu.html"><li>Menu</li></a>
-         <hr>
       </ul>
     </div>
   </div>
@@ -139,12 +138,12 @@
       <section class="mission">
           <div class="container">
               <div class="row">
-                <div class="col-lg-6 col-12 imagebox">
+                <div class="col-lg-6 col-12 col-md-7 imagebox">
               <img  class="img1" src="assets/img/chefs/breakfast-at-prive-steak.jpg"alt="">
               <img  class="img2" src="assets/img/chefs/prive-staff.jpg"  alt="">
               <img  class="img3" src="assets/img/meals/pleasure2.jpg"  alt="">
                 </div>
-             <div class="col-lg-6">
+             <div class="col-lg-6 col-md-5">
                  <h3>Our Mission</h3>
                  <h5>We are here to choose products with special care to create the clean, fresh and delicious blessings that are always worthy of your mouth, to be friendly to customers by serving them to the highest standards and to add color and flavor to the most special moments of their lives!</h5>
              </div>
@@ -270,13 +269,10 @@
       
 </body>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
 <script src="assets/js/main.js"></script>
 <script src="assets/js/search.js"></script>
 <script src="assets/js/cart.js"></script>
 <script src="assets/js/side-bar.js"></script>
-<!-- <script>
-  AOS.init();
-</script> -->
 </html>

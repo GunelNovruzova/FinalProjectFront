@@ -14,14 +14,14 @@
     <link rel="stylesheet" href="assets/css/shop.css">
 </head>
 <body>
-  <header>
+  <header> 
     <div class="all"> 
   <div class="container">
    <div class="row">
-  <div class="col-lg-2">
+  <div class="col-lg-2 col-md-2 col-sm-2">
     <a href=""><img src="assets/img/logo/prive logo.png" alt=""></a>
   </div>
-    <div class="col-lg-8">
+    <div class="col-lg-8 col-md-2 col-sm-8">
      <div class="header-text">
                <ul>
                 <a href="index.html"><li> Home </li></a>
@@ -33,17 +33,19 @@
                </ul>
                <div class="right-side">
                  <a href="" class="searchglass"> <i class="fa-solid fa-magnifying-glass"></i></a>
-                 <a href="" class="account"><i class="fa-solid fa-user-gear"></i></a>
-                 <ul class="sub-menu">
-                   <li><a href="account.html">Account</a></li>
-                   <li><a href="login.html">Login</a></li>
-                   <li><a href="register.html">Register</a></li>
+                 <div class="account">
+                   <i class="fa-solid fa-user-gear"></i> 
+                   <ul class="sub-menu">
+                     <li><a href="account.html">Account</a></li>
+                     <li><a href="login.html">Login</a></li>
+                     <li><a href="register.html">Register</a></li>
                  </ul>
+               </div>
                  <a href="" class="basket"><i class="fa-solid fa-cart-shopping"></i></a>
                </div>
        </div>
        </div>
-       <div class="col-lg-2">
+       <div class="col-lg-2 col-md-2 col-sm-2">
            <div class="booktable"> 
                <a href="table.html">Book A Table</a>
            </div>
@@ -51,7 +53,7 @@
    </div>
 </div>
 </div>
-  </header>
+  </header> 
   <div id="phoneheader">
     <div class="container">
       <div class="row">
@@ -59,7 +61,11 @@
           <a href=""><img src="assets/img/logo/prive logo.png" alt=""></a>
         </div>
         <div class="col-2">
-         <i id="open-nav" class="fa-solid fa-bars"></i>
+         <div class="side-menu">
+           <span class="top"></span>
+           <span class="center" id="center"></span>
+           <span class="bottom"></span>
+         </div>
         </div>
       </div>
     </div>
@@ -68,22 +74,15 @@
     <div class="nav-barinner">
      <div class="box1 d-flex">
        <img src="assets/img/logo/prive logo.png" alt="">
-       <i id="close-nav" class="fa-solid fa-square-xmark close"></i>
+      
    </div>
       <ul>
-         <a href="index.html"><li>Home</li></a>
-         <hr>
+         <a href="index.html" class="active-nav-link"><li>Home</li></a>
          <a href="about.html"><li>About</li></a>
-         <hr>
          <a href="contact.html"><li>Contact</li></a>
-         <hr>
          <a href="blog.html"><li>Blog</li></a>
-         <hr>
-
          <a href="shop.html"><li>Shop</li></a>
-         <hr>
          <a href="menu.html"><li>Menu</li></a>
-         <hr>
       </ul>
     </div>
   </div>
@@ -99,7 +98,7 @@
      <section class="shop-detail">
          <div class="container">
              <div class="row">
-                 <div class="col-lg-8">
+                 <div class="col-lg-8 col-12">
                      <div class="features">
                         <p>Showing <span>1–4</span> Of <span>11</span> Results</p>
                         <form action="">
@@ -112,7 +111,7 @@
                         </form>
                      </div>
               <div class="row">
-                <div class="col-lg-6">
+                <div class="col-lg-6 col-12">
                   <div class="product-detail">
                   <div class="imgcart">
                     <a  href="shopdetail.html"><img src="assets/img/meals/privechickenburger.jpg" alt=""></a>
@@ -135,7 +134,7 @@
                  
                  
                 </div>
-                <div class="col-lg-6">
+                <div class="col-lg-6 col-12">
                    <div class="product-detail">
                <div class="imgcart">
                 <a href="shopdetail.html"><img src="assets/img/meals/danalokum.jpg" alt=""></a>
@@ -153,7 +152,7 @@
                     </div>
                    </div>
                 </div>
-                <div class="col-lg-6">
+                <div class="col-lg-6 col-12">
                     <div class="product-detail">
                    <div class="imgcart">
                     <a href="shopdetail.html"><img src="assets/img/meals/dessert.jpg" alt=""></a>
@@ -171,7 +170,7 @@
                      </div>
                     </div>
                  </div>
-                 <div class="col-lg-6">
+                 <div class="col-lg-6 col-12">
                     <div class="product-detail">
                   <div class="imgcart">
                     <a href="shopdetail.html"><img src="assets/img/meals/dryaged2.jpg" alt=""></a>
@@ -201,7 +200,7 @@
                 </ul>
               </div>
                  </div>
-                 <div class="col-lg-4">
+                 <div class="col-lg-4 col-12">
                     <div class="right">
                         <form action="">
                         <input type="text" placeholder="Serach">
@@ -352,6 +351,7 @@
       </div>
     </section>
 </body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 <script src="assets/js/side-bar.js"></script>
 <script src="assets/js/search.js"></script>
 <script src="assets/js/cart.js"></script>

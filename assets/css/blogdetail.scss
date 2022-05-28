@@ -44,48 +44,62 @@ header {
             }
 
         }
+        .right-side{
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            a {
+                text-decoration: none;
+                color: #fff;
+                font-size: 17px;
+                margin-left: 20px;
+                display: inline-block;
+                transition: .2s;
+                &:hover{
+                    color: #C19E68;
+                    .sub-menu{
+                        opacity: 1;
+                        visibility: visible;
+                    }
+                }
+            }
+            
+        .account{
+            margin-left: 20px;
+            .sub-menu{
+                width: 40px;
+                margin: 0;
+                list-style: none !important;
+                padding: 0;
+                background: #cfa86e;
+                flex-direction: column;
+                position: absolute;
+                top: 100%;
+                left: 50%;
+                transform: translateX(-50%);
+                text-align: left;
+                z-index: 1;
+                box-shadow: 0px 3px 15px 0px rgb(0 0 0 / 30%);
+                height: 80px;   
+                padding-left: 0px;
+                width: 144px;
+                opacity: 0;
+                visibility: hidden;
+                transition: all .3s;
+            }
+            &:hover .sub-menu{
+                transition: all .3s;
+                opacity: 1;
+                visibility: visible;
+                
+            }
+          
+          }
+        }
         li{
             color: #cbcccc;
             line-height: 25px;
-        }
-        a {
-            text-decoration: none;
-
-            color: #fff;
-            font-size: 17px;
-            margin-left: 20px;
-            transition: .2s;
-            &:hover{
-                color: #C19E68;
-            }
-        }
-        .sub-menu{
-            width: 40px;
-            margin: 0;
-            list-style: none !important;
-            padding: 0;
-            background: #cfa86e;
-            position: absolute;
-            top: 90%;
-            left: 65%;
-            text-align: left;
-            z-index: 1;
-            box-shadow: 0px 3px 15px 0px rgb(0 0 0 / 30%);
-            height: 80px;   
-            padding-left: 0px;
-            width: 144px;
-            opacity: 0;
-            visibility: hidden;
-        }
-      .account{
-          position: relative;
-          &:hover{
-              .sub-menu{
-                  opacity: 1;
-                  visibility: visible;
-              }
-          }
-        
         }
         
   }

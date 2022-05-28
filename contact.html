@@ -33,12 +33,14 @@
                </ul>
                <div class="right-side">
                  <a href="" class="searchglass"> <i class="fa-solid fa-magnifying-glass"></i></a>
-                 <a href="" class="account"><i class="fa-solid fa-user-gear"></i></a>
-                 <ul class="sub-menu">
-                   <li><a href="account.html">Account</a></li>
-                   <li><a href="login.html">Login</a></li>
-                   <li><a href="register.html">Register</a></li>
+                 <div class="account">
+                   <i class="fa-solid fa-user-gear"></i> 
+                   <ul class="sub-menu">
+                     <li><a href="account.html">Account</a></li>
+                     <li><a href="login.html">Login</a></li>
+                     <li><a href="register.html">Register</a></li>
                  </ul>
+               </div>
                  <a href="" class="basket"><i class="fa-solid fa-cart-shopping"></i></a>
                </div>
        </div>
@@ -59,7 +61,11 @@
           <a href=""><img src="assets/img/logo/prive logo.png" alt=""></a>
         </div>
         <div class="col-2">
-         <i id="open-nav" class="fa-solid fa-bars"></i>
+         <div class="side-menu">
+           <span class="top"></span>
+           <span class="center" id="center"></span>
+           <span class="bottom"></span>
+         </div>
         </div>
       </div>
     </div>
@@ -68,22 +74,15 @@
     <div class="nav-barinner">
      <div class="box1 d-flex">
        <img src="assets/img/logo/prive logo.png" alt="">
-       <i id="close-nav" class="fa-solid fa-square-xmark close"></i>
+      
    </div>
       <ul>
-         <a href="index.html"><li>Home</li></a>
-         <hr>
+         <a href="index.html" class="active-nav-link"><li>Home</li></a>
          <a href="about.html"><li>About</li></a>
-         <hr>
          <a href="contact.html"><li>Contact</li></a>
-         <hr>
          <a href="blog.html"><li>Blog</li></a>
-         <hr>
-
          <a href="shop.html"><li>Shop</li></a>
-         <hr>
          <a href="menu.html"><li>Menu</li></a>
-         <hr>
       </ul>
     </div>
   </div>
@@ -98,7 +97,7 @@
  <section class="booking">
     <div class="container">
       <div class="row">
-        <div class="col-lg-6 form-text">
+        <div class="col-lg-6 col-md-5  col-sm-5 form-text">
             <h3>Contact Us</h3>
             <form action="">
               <div class="container">
@@ -120,7 +119,7 @@
       
             </form>
           </div>
-          <div class="col-lg-6">
+          <div class="col-lg-6 col-md-7 col-sm-7">
               <h5>Our Contacts</h5>
               <h2>Get In Touch</h2>
               <p>Get in touch to discuss your employee wellbeing needs <br> today. Please give us a call, drop us an email or fill out the <br> contact form and we’ll get back to you.</p>
@@ -223,6 +222,7 @@
     </div>
   </section>
 </body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 <script src="assets/js/side-bar.js"></script>
 <script src="assets/js/search.js"></script>
 <script src="assets/js/cart.js"></script>

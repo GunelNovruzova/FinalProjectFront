@@ -39,29 +39,41 @@ header .header-text ul li {
 header .header-text ul li:hover {
   color: #C19E68;
 }
-header .header-text li {
-  color: #cbcccc;
-  line-height: 25px;
+header .header-text .right-side {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-header .header-text a {
+header .header-text .right-side a {
   text-decoration: none;
   color: #fff;
   font-size: 17px;
   margin-left: 20px;
+  display: inline-block;
   transition: 0.2s;
 }
-header .header-text a:hover {
+header .header-text .right-side a:hover {
   color: #C19E68;
 }
-header .header-text .sub-menu {
+header .header-text .right-side a:hover .sub-menu {
+  opacity: 1;
+  visibility: visible;
+}
+header .header-text .right-side .account {
+  margin-left: 20px;
+}
+header .header-text .right-side .account .sub-menu {
   width: 40px;
   margin: 0;
   list-style: none !important;
   padding: 0;
   background: #cfa86e;
+  flex-direction: column;
   position: absolute;
-  top: 90%;
-  left: 65%;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
   text-align: left;
   z-index: 1;
   box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.3);
@@ -70,13 +82,16 @@ header .header-text .sub-menu {
   width: 144px;
   opacity: 0;
   visibility: hidden;
+  transition: all 0.3s;
 }
-header .header-text .account {
-  position: relative;
-}
-header .header-text .account:hover .sub-menu {
+header .header-text .right-side .account:hover .sub-menu {
+  transition: all 0.3s;
   opacity: 1;
   visibility: visible;
+}
+header .header-text li {
+  color: #cbcccc;
+  line-height: 25px;
 }
 header .booktable {
   height: 100%;
