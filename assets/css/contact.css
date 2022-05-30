@@ -42,7 +42,6 @@ header .header-text ul li:hover {
 header .header-text .right-side {
   position: relative;
   display: flex;
-  justify-content: center;
   align-items: center;
 }
 header .header-text .right-side a {
@@ -76,7 +75,6 @@ header .header-text .right-side .account .sub-menu {
   transform: translateX(-50%);
   text-align: left;
   z-index: 1;
-  box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.3);
   height: 80px;
   padding-left: 0px;
   width: 144px;
@@ -315,7 +313,6 @@ footer .col-lg-4 span {
   opacity: 0;
   background-color: rgba(0, 0, 0, 0.5490196078);
   display: flex;
-  justify-content: center;
   align-items: center;
   transition: all 0.3s;
   z-index: 999;
@@ -373,7 +370,6 @@ footer .col-lg-4 span {
   width: 30%;
   background: #030e16;
   padding: 40px 30px 40px 40px;
-  box-shadow: 0px 5px 14px 0px rgb(0, 0, 0);
   border: 1px solid #cfa86e;
   opacity: 0;
   visibility: hidden;
@@ -439,7 +435,6 @@ footer .col-lg-4 span {
   border: 2px solid #cfa86e;
   border-radius: 0;
   position: relative;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.1);
   outline: none;
   color: #cfa86e;
   text-decoration: none;
@@ -461,7 +456,6 @@ footer .col-lg-4 span {
   border: 2px solid #cfa86e;
   border-radius: 0;
   position: relative;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.1);
   outline: none;
   color: #cfa86e;
   text-decoration: none;
@@ -496,7 +490,6 @@ footer .col-lg-4 span {
   }
   #phoneheader .side-menu {
     display: flex;
-    justify-content: center;
     align-items: center;
     padding: 5px;
     background-color: black;
@@ -543,7 +536,6 @@ footer .col-lg-4 span {
   }
   .nav-bar .nav-barinner {
     display: flex;
-    justify-content: center;
     align-items: center;
     text-align: center;
     flex-direction: column;
@@ -639,7 +631,6 @@ footer .col-lg-4 span {
   }
   #phoneheader .side-menu {
     display: flex;
-    justify-content: center;
     align-items: center;
     padding: 5px;
     background-color: black;
@@ -686,7 +677,6 @@ footer .col-lg-4 span {
   }
   .nav-bar .nav-barinner {
     display: flex;
-    justify-content: center;
     align-items: center;
     text-align: center;
     flex-direction: column;

@@ -47,7 +47,7 @@ header {
         .right-side{
             position: relative;
             display: flex;
-            justify-content: center;
+          
             align-items: center;
             a {
                 text-decoration: none;
@@ -80,7 +80,7 @@ header {
                 transform: translateX(-50%);
                 text-align: left;
                 z-index: 1;
-                box-shadow: 0px 3px 15px 0px rgb(0 0 0 / 30%);
+         
                 height: 80px;   
                 padding-left: 0px;
                 width: 144px;
@@ -305,9 +305,9 @@ h3{
                   width: 100%;
                   height: 0%;
                   opacity: 0;
-                  background-color: #0000008c;
+              
                   display: flex;
-                  justify-content: center;
+               
                   align-items: center;
                   transition: all .3s;
                   z-index: 999;
@@ -374,7 +374,7 @@ h3{
                   width: 30%;
                   background: #030e16;
                   padding: 40px 30px 40px 40px;
-                  box-shadow: 0px 5px 14px 0px rgb(0 0 0);
+               
                   border: 1px solid #cfa86e;
                   opacity: 0;
                   visibility: hidden;
@@ -443,7 +443,7 @@ h3{
                   border: 2px solid #cfa86e;
                   border-radius: 0;
                   position: relative;
-                  box-shadow: 0 2px 10px rgb(0 0 0 / 16%), 0 3px 6px rgb(0 0 0 / 10%);
+                  
                   outline: none;
                   color: #cfa86e;
                   text-decoration: none;
@@ -466,7 +466,7 @@ h3{
                               border: 2px solid #cfa86e;
                               border-radius: 0;
                               position: relative;
-                              box-shadow: 0 2px 10px rgb(0 0 0 / 16%), 0 3px 6px rgb(0 0 0 / 10%);
+                             
                               outline: none;
                               color: #cfa86e;
                               text-decoration: none;
@@ -573,7 +573,7 @@ h3{
     }
     .side-menu{
         display: flex;
-        justify-content: center;
+       
         align-items: center;
         padding: 5px;
         background-color: black;
@@ -636,7 +636,7 @@ h3{
     width: 90%;
     .nav-barinner{
         display: flex;
-        justify-content: center;
+      
         align-items: center;
         text-align: center;
         flex-direction: column;
@@ -738,7 +738,7 @@ h3{
                 }
                 .side-menu{
                     display: flex;
-                    justify-content: center;
+                  
                     align-items: center;
                     padding: 5px;
                     background-color: black;
@@ -795,12 +795,12 @@ h3{
                 top: 20%;
                 bottom: 0;
                 left: 0;
-                box-shadow: 0px 5px 7px 0px rgb(0 0 0 / 25%);
+               
                 z-index: 99999;
                 width: 90%;
                 .nav-barinner{
                     display: flex;
-                    justify-content: center;
+               
                     align-items: center;
                     text-align: center;
                     flex-direction: column;
