@@ -1,3 +1,4 @@
+
 $primary-color : #cfa86e;
 * {
     padding: 0;
@@ -151,6 +152,8 @@ header {
         color: #cfa86e;
         font-size: 24px;
         margin-top: 15rem;
+        font-family: 'Dancing Script', cursive;
+font-family: 'Tiro Devanagari Marathi', serif;
 
     }
 
@@ -167,6 +170,8 @@ header {
         margin-top: 40px;
         line-height: 1.5;
         margin-bottom: 60px;
+        font-family: 'Dancing Script', cursive;
+        font-family: 'Tiro Devanagari Marathi', serif;
     }
 
 }
@@ -1302,3 +1307,25 @@ footer {
       
     }
 }
+@import 'register';
+@import 'about';
+@import 'account';
+@import 'blog';
+@import 'blogdetail';
+@import 'burger';
+@import 'cart';
+@import 'checkout';
+@import 'contact';
+@import 'desserrs';
+@import 'dryaged';
+@import 'grilledmeats';
+@import 'hotsnack';
+@import 'login';
+@import 'menu';
+@import 'register';
+@import 'salad';
+@import 'shop';
+@import 'shopdetail';
+@import 'snack';
+@import 'table';
+
