@@ -4,6 +4,10 @@ $primary-color : #cfa86e;
     margin: 0;
     box-sizing: border-box;
 }
+
+input{
+    outline: none;
+}
 header {
     // align-items: center;
     // justify-content: space-between;
@@ -178,8 +182,9 @@ header {
 background-color: #030E16;
     form{
        background-color: #041B26;
-        width: 100%;
-        margin-left: 450px;
+        width: 45%;
+        padding: 20px;
+        margin:  0 auto;
        h3{
             text-transform: uppercase;
             text-align: center;
@@ -198,16 +203,13 @@ background-color: #030E16;
            margin-left:200px;
            
        }
-       input{
-      
+       .formInp{
+      width: 100%;
         height: 40px;
-        margin-left: 20px;
-        margin-bottom: 20px;
 
         color: #666666;
         border: 1px solid #ccc;
         padding: 12px 10px;
-        width: 80%;
         font-size: 14px;
         background: #f7f7f7;
 
@@ -239,6 +241,26 @@ background-color: #030E16;
 }
     hr{
         color: #cfa86e;
+    }
+
+    .remmemberForgot{
+        padding: 20px;
+        .rememmbermeInp{
+            label{
+                margin: 0;
+            }
+            input{
+                margin: 0px;
+                width: auto;
+                margin: 0;
+                height: auto;
+            }
+        }
+        .forgotYourPassword{
+            color: #C19E68;
+            text-decoration: none;
+            text-align: right;
+        }
     }
     }
        

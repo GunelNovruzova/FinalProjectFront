@@ -156,8 +156,9 @@ header .booktable a:hover {
 }
 .register form {
   background-color: #041B26;
-  width: 100%;
-  margin-left: 150px;
+  width: 45%;
+  margin: 0 auto;
+  padding: 20px 0;
 }
 .register form h3 {
   text-transform: uppercase;
@@ -174,8 +175,10 @@ header .booktable a:hover {
   margin-left: 200px;
 }
 .register form input {
+  outline: none;
   height: 40px;
-  margin-left: 20px;
+  width: 100%;
+  margin-left: 50px;
   margin-bottom: 20px;
   color: #666666;
   border: 1px solid #ccc;

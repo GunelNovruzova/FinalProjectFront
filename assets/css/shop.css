@@ -276,6 +276,7 @@ header .booktable a:hover {
   color: #cbcccc;
   height: 49px;
   padding: 0 15px;
+  outline: none;
 }
 .right form button {
   background-color: #cfa86e;

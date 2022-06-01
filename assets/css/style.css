@@ -430,6 +430,7 @@ header .booktable a:hover {
   width: 250px;
   height: 40px;
   color: #b1b5b7;
+  outline: none;
 }
 .booking .form-text button {
   border: 1px solid #B25E26;
@@ -1236,8 +1237,9 @@ header .booktable a:hover {
 }
 .register form {
   background-color: #041B26;
-  width: 100%;
-  margin-left: 150px;
+  width: 45%;
+  margin: 0 auto;
+  padding: 20px 0;
 }
 .register form h3 {
   text-transform: uppercase;
@@ -1254,8 +1256,10 @@ header .booktable a:hover {
   margin-left: 200px;
 }
 .register form input {
+  outline: none;
   height: 40px;
-  margin-left: 20px;
+  width: 100%;
+  margin-left: 50px;
   margin-bottom: 20px;
   color: #666666;
   border: 1px solid #ccc;
@@ -11043,6 +11047,10 @@ footer .col-lg-4 span {
   box-sizing: border-box;
 }
 
+input {
+  outline: none;
+}
+
 header {
   padding: 20px 0;
   margin: 0;
@@ -11192,8 +11200,9 @@ header .booktable a:hover {
 }
 .login form {
   background-color: #041B26;
-  width: 100%;
-  margin-left: 450px;
+  width: 45%;
+  padding: 20px;
+  margin: 0 auto;
 }
 .login form h3 {
   text-transform: uppercase;
@@ -11209,14 +11218,12 @@ header .booktable a:hover {
   color: #cfa86e;
   margin-left: 200px;
 }
-.login form input {
+.login form .formInp {
+  width: 100%;
   height: 40px;
-  margin-left: 20px;
-  margin-bottom: 20px;
   color: #666666;
   border: 1px solid #ccc;
   padding: 12px 10px;
-  width: 80%;
   font-size: 14px;
   background: #f7f7f7;
 }
@@ -11244,6 +11251,23 @@ header .booktable a:hover {
 }
 .login form hr {
   color: #cfa86e;
+}
+.login form .remmemberForgot {
+  padding: 20px;
+}
+.login form .remmemberForgot .rememmbermeInp label {
+  margin: 0;
+}
+.login form .remmemberForgot .rememmbermeInp input {
+  margin: 0px;
+  width: auto;
+  margin: 0;
+  height: auto;
+}
+.login form .remmemberForgot .forgotYourPassword {
+  color: #C19E68;
+  text-decoration: none;
+  text-align: right;
 }
 
 footer {
@@ -12871,8 +12895,9 @@ header .booktable a:hover {
 }
 .register form {
   background-color: #041B26;
-  width: 100%;
-  margin-left: 150px;
+  width: 45%;
+  margin: 0 auto;
+  padding: 20px 0;
 }
 .register form h3 {
   text-transform: uppercase;
@@ -12889,8 +12914,10 @@ header .booktable a:hover {
   margin-left: 200px;
 }
 .register form input {
+  outline: none;
   height: 40px;
-  margin-left: 20px;
+  width: 100%;
+  margin-left: 50px;
   margin-bottom: 20px;
   color: #666666;
   border: 1px solid #ccc;

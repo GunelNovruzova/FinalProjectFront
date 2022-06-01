@@ -181,6 +181,7 @@ header .booktable a:hover {
   width: 250px;
   height: 40px;
   color: #b1b5b7;
+  outline: none;
 }
 .booking .form-text button {
   border: 1px solid #B25E26;

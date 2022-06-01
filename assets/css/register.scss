@@ -181,8 +181,10 @@ background-color: #030E16;
 }
     form{
        background-color: #041B26;
-        width: 100%;
-        margin-left: 150px;
+        width: 45%;
+        margin: 0 auto;
+        padding:20px 0;
+      
        h3{
             text-transform: uppercase;
             text-align: center;
@@ -202,9 +204,10 @@ background-color: #030E16;
            
        }
        input{
-      
+      outline: none;
         height: 40px;
-        margin-left: 20px;
+       width: 100%;
+       margin-left: 50px;
         margin-bottom: 20px;
 
         color: #666666;
@@ -239,6 +242,7 @@ background-color: #030E16;
     border: 2px solid #cfa86e;
     line-height: inherit;
     transition: 0.5s;
+   
 }
     hr{
         color: #cfa86e;
@@ -595,10 +599,6 @@ footer {
         transform: translateX(-50%);
         z-index: 99999;
         width: 82%;
-       
-        // opacity: 0;
-        // visibility: hidden;
-    
         ul{
             padding: 10px;
             a{
